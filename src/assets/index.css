@@ -1,0 +1,49 @@
+/* @font-face{
+  font-family: 'pingFang';
+  src: url('./苹方-简 细体.otf');
+  font-weight: normal;
+  font-style: normal;
+} */
+/* 苹方-简 常规体
+font-family: PingFangSC-Regular, sans-serif;
+苹方-简 极细体
+font-family: PingFangSC-Ultralight, sans-serif;
+苹方-简 细体
+font-family: PingFangSC-Light, sans-serif;
+苹方-简 纤细体
+font-family: PingFangSC-Thin, sans-serif;
+苹方-简 中黑体
+font-family: PingFangSC-Medium, sans-serif;
+苹方-简 中粗体
+font-family: PingFangSC-Semibold, sans-serif; */
+*{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+html,body{
+  font-family: PingFangSC-Light, sans-serif;
+  font-size:12px;
+}
+body{
+  height:100vh;
+}
+svg{
+  fill:currentColor;
+  color:#000000;
+}
+path { fill: inherit !important }
+div{
+  box-sizing: border-box;
+}
+input{
+  outline: none;
+  border:none;
+}
+:root{
+  --van-primary-color: #8F8FFC;
+  --van-cell-font-size:12px;
+  /* --van-badge-background: var(--van-primary-color); */
+}
