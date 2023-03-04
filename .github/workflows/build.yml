@@ -7,13 +7,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      packages: write
-    env: 
-      VITE_BASE_URL: ${{secrets.VITE_BASE_URL}}
-      VITE_BASE_URL_WS: ${{secrets.VITE_BASE_URL_WS}}
-    permissions:
       pages: write
       id-token: write
+    env:  
+      VITE_BASE_URL: ${{secrets.VITE_BASE_URL}}
+      VITE_BASE_URL_WS: ${{secrets.VITE_BASE_URL_WS}}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
