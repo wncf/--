@@ -30,8 +30,6 @@ jobs:
 
     - name: build ...
       run: npm run build
-    - name: mv nojekyll
-      run: mv .nojekyll /dist
     - uses: actions/configure-pages@v2
     - uses: actions/upload-pages-artifact@v1
       with:
